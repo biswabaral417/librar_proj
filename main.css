@@ -1,0 +1,52 @@
+.mainnav {
+    background-color: blue;
+    top: 0;
+    position:fixed ;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navitem {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.naviteml {
+    all: unset;
+    margin-left: auto;
+}
+
+.lbtn {
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 70px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 2px 2px 10px 3px  gray;
+    background-color: white;
+    padding: 90px;
+}
