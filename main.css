@@ -16,6 +16,7 @@ ul {
     font-weight: bold;
     font-size: 20px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
 }
@@ -41,12 +42,42 @@ ul {
     margin-top: 70px;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 400px));
     grid-gap: 20px;
+    justify-content: center;
 }
 
 .card {
     box-shadow: 2px 2px 10px 3px  gray;
     background-color: white;
-    padding: 90px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card>button{
+    padding: 10px;
+    all: unset;
+    padding:6px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+.card>button:hover{
+background-color: #d8d4d4;
+}
+.frm{
+    display:none;
+}
+
+.frm > div {
+    /* min-width: 200px; */
+    margin: 20px;
+    /* padding: 20px; */
+}
+label{
+    display:block;
+    /* width: 55px; */
+}
+h2{
+    margin: 10px;
 }

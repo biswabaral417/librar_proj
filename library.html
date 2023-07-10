@@ -17,16 +17,43 @@
             </ul>
     </nav>
     <div class="container">
-        <div class="card inp">
-            
-        </div>
-   
-        <div class="card add">
-            
+
+        <div class="card addbook">
+            <button id="addbooksbtn">
+                <img src="./images/plus.svg" alt="">
+            </button>
+            <form action="" class="frm">
+                <div>
+                    <label for="title">title</label>
+                    <input type="text" id="title">
+                </div>
+                <div>
+                    <label for="pages">pages</label>
+                    <input type="number" id="pages">
+                </div>
+                <div>
+                    <label for="author">author</label>
+                    <input type="text" name="author" id="author">
+
+                </div>
+                <div>
+                    <label for="read">have u read</label>
+                    <input type="checkbox" id="read">
+                    <!-- <label for="yes">yes</label>
+                    <input type="radio" id="yes" name="yesno">
+                    <label for="no">no</label>
+                    <input type="radio" id="no" name="yesno"> -->
+                </div>
+                <div>
+                    <button type="submit" class="submitbtn">submit</button>
+                    <button type="reset">reset</button>
+                </div>
+            </form>
         </div>
     </div>
+   
 
-
+  
 </body>
 <script src="./index.js"></script>
 </html>
